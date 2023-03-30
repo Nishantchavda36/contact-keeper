@@ -6,6 +6,10 @@ const PORT = process.env.PORT || 5001
 //Connect database
 connectDB()
 
+//Initialize Middleware
+
+app.use(express.json())
+
 app.get('/', (req, res) => {
   res.json({ msg: 'Welcome to the ContactKeeper app' })
 })
