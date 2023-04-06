@@ -13,6 +13,7 @@ const User = require('../modals/User')
 
 router.post(
   '/',
+
   [
     check('name', 'Please add name').not().isEmpty(),
     check('email', 'Please input valid email').isEmail(),
