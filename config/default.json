@@ -1,3 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://chavdan1207:chavdan1207@cluster0.gndaeqa.mongodb.net/?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://chavdan1207:chavdan1207@cluster0.gndaeqa.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret":"secret"
+
 }
